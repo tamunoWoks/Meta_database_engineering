@@ -57,3 +57,8 @@ They are further divided into several types:
 4. **Key-Value Databases:** Each item is stored as a key (a unique identifier) paired with its value (the data itself).
 5. **Column-Family (Wide-Column) Databases:** Store data in tables, rows, and dynamic columns, but unlike relational DBs, each row is not required to have the same columns. Data is stored by column rather than by row, which is very efficient for querying specific fields across massive datasets.
 6. **Time-Series Databases (TSDB):** Optimized for storing and querying data points that are time-stamped, like sensor readings, stock prices, or application metrics.
+
+## Big Data
+**"Big Data"** is a term that describes datasets that are so large, complex, and fast-growing that traditional data processing tools (like a single relational database) can no longer capture, store, manage, or analyze them effectively.
+
+It's not just about having a lot of data. It's about data that has passed a certain threshold of volume, speed, and complexity that requires new tools and approaches.
