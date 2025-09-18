@@ -62,3 +62,6 @@ They are further divided into several types:
 **"Big Data"** is a term that describes datasets that are so large, complex, and fast-growing that traditional data processing tools (like a single relational database) can no longer capture, store, manage, or analyze them effectively.
 
 It's not just about having a lot of data. It's about data that has passed a certain threshold of volume, speed, and complexity that requires new tools and approaches.
+
+### The Core of Big Data:
+The concept is best understood through its defining characteristics, often called the V's of Big Data.
