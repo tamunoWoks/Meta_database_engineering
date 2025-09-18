@@ -79,3 +79,6 @@ Big Data is rarely neat and structured. Eg. A company's data might include struc
 Business Intelligence (BI) is the set of strategies, technologies, and processes that organizations use to transform raw data into meaningful and actionable information that drives informed business decisions.
 
 Think of it as the bridge between data and decision-making. Its ultimate goal is to provide a comprehensive, easy-to-understand view of an organization's current and historical performance to support better choices.
+
+### The Business Intelligence Process:
+BI follows a systematic process to turn data into insight:
