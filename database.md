@@ -1,5 +1,5 @@
 ### Database
-A database is a form of electronic storage in which data is organized and held systematically.
+A database is a form of electronic storage in which data is organized and held systematically to make it more manageable, efficient and secure.
 
 ### Database tasks:
 - Store data
