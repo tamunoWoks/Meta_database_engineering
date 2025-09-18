@@ -100,3 +100,5 @@ Presenting the analyzed data in an easy-to-understand, visual format. This is th
    - **Dashboards:** Interactive, single-screen views of key performance indicators (KPIs) and metrics.
    - **Reports:** Scheduled or on-demand detailed reports (e.g., a weekly sales report).
    - **Charts & Graphs:** Bar charts, pie charts, line graphs, and more complex visualizations like heat maps.
+5. **Action and Decision-Making:**  
+The final step. Decision-makers (managers, executives, analysts) use the insights from the reports and dashboards to make data-driven decisions.
