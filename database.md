@@ -30,5 +30,3 @@ Databases are hosted:
 Cloud hosting in relation to databases means leveraging the infrastructure and services of a cloud provider like Amazon Web Services, Google Cloud, or Microsoft Azure to run your database instead of on your own physical hardware in a server room.  
 
 It transforms a database from a piece of software you must maintain into a managed utility that you simply use, allowing developers to focus on building applications rather than managing hardware and software.
-
-
