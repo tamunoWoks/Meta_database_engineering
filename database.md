@@ -74,4 +74,5 @@ Big Data is rarely neat and structured. It comes in all forms:
    - **Structured:** Traditional rows and columns (e.g., spreadsheets, SQL tables).
    - **Unstructured:** No pre-defined format (e.g., emails, social media posts, videos, photos, audio recordings).
    - **Semi-structured:** Has some organizational properties (e.g., JSON, XML, log files).  
+
 **Example:** A company's data might include structured sales records, unstructured customer service emails, and semi-structured website clickstream logs.
