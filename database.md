@@ -16,11 +16,6 @@ Think of it as the basic building blocks of information. By itself, a single pie
 Data is stored systematically, and these are the characteristics of systematic data:
 - Identifiable features or attributes.
 - Stored in entities eg. Tables
-
-### Types of Database Systems:
-1. **Object-Oriented Databases:** Data stored in form of objects.
-2. **Graph Databases:** Data stored in form of nodes.
-3. **Document Databases:** Data stored as JSON objects.
    
 Databases are hosted:
 - Dedicated machine on site.
@@ -43,7 +38,7 @@ For a field (or set of fields) to be a primary key, it must adhere to three stri
 ### Foreign Key:
 A *foreign key* is a field (or collection of fields) in one table that uniquely identifies a row in another table. It is a column in one table that points to the primary key in another table. This link establishes a relationship between the two tables.
 
-### Types of Databases:
+## Types of Databases:
 ### Relational Databases (SQL Databases):
 This is the most traditional and common type. They organize data into tables (like spreadsheets) made of rows and columns.
 - **Core Concept:** Data is structured and follows a pre-defined schema (a blueprint of how the data is organized, including tables, columns, data types, and relationships). They use SQL (Structured Query Language) to manage and query the data.
@@ -51,3 +46,14 @@ This is the most traditional and common type. They organize data into tables (li
 - **Weakness:** The rigid schema can make them less flexible if your data structure needs to change frequently. They can also be difficult to scale horizontally (across multiple servers).
 - **Best For:** Applications where data integrity and relationships are critical. Examples: accounting systems, customer relationship management (CRM) software, e-commerce transaction systems.
 - **Examples:** MySQL, PostgreSQL, Microsoft SQL Server, Oracle Database, SQLite.
+
+### Non-Relational Databases (NoSQL Databases)
+This is a broad category that includes any database that doesn't use the traditional table-based relational model. They are often more flexible and designed for large-scale, rapidly changing data.  
+
+They are further divided into several types:
+1. **Object-Oriented Databases:** Data stored in form of objects.
+2. **Graph Databases:** Data stored in form of nodes.
+3. **Document Databases:** Data stored as JSON objects.
+4. **Key-Value Databases:** Each item is stored as a key (a unique identifier) paired with its value (the data itself).
+5. **Column-Family (Wide-Column) Databases:** Store data in tables, rows, and dynamic columns, but unlike relational DBs, each row is not required to have the same columns. Data is stored by column rather than by row, which is very efficient for querying specific fields across massive datasets.
+6. **Time-Series Databases (TSDB):** Optimized for storing and querying data points that are time-stamped, like sensor readings, stock prices, or application metrics.
