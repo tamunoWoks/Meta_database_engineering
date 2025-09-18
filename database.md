@@ -22,3 +22,6 @@ Data is stored systematically, and these are the characteristics of systematic d
 2. **Graph Databases:** Data stored in form of nodes.
 3. **Document Databases:** Data stored as JSON objects.
    
+Databases are hosted:
+- Dedicated machine on site.
+- Cloud hosting.
