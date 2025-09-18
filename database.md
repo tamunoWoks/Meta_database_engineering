@@ -18,5 +18,6 @@ Data is stored systematically, and these are the characteristics of systematic d
 - Stored in entities eg. Tables
 
 ### Types of Databases:
-1. **Object Oriented Databases:** Data stored in form of objects.
+1. **Object-Oriented Databases:** Data stored in form of objects.
+2. **Graph Databases:** Data stored in form of nodes.
    
