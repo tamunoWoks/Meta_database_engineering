@@ -16,3 +16,11 @@ A "dialect" is a variant of SQL that is specific to a particular database manage
 - MySQL
 
 **The important thing to remember:** Core SQL commands like SELECT, FROM, WHERE, INSERT, UPDATE, and DELETE work almost identically across all dialects. The differences become more apparent with advanced functions, date manipulation, and procedural code.
+
+### What is the Advantage of SQL?
+SQL has remained the dominant language for data for over four decades for several powerful reasons:
+- Declarative Nature
+- Standardization and Universality
+- Powerful Data Manipulation
+- Ability to Handle Complex Relationships
+- Security and Access Control
