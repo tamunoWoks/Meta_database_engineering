@@ -9,4 +9,6 @@ A database is a form of electronic storage in which data is organized and held s
 - Perform CRUD operations
 
 ### Data:
-At its core, data is a collection of raw, unorganized facts and details. These facts can be anything—numbers, words, observations, measurements, symbols, or even just descriptions of things.
+At its core, data is a collection of raw, unorganized facts and details. These facts can be anything—numbers, words, observations, measurements, symbols, or even just descriptions of things.  
+
+Think of it as the basic building blocks of information. By itself, a single piece of data might not mean much. It needs to be processed, organized, and structured to become useful.
