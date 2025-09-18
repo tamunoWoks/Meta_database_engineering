@@ -75,3 +75,7 @@ Big Data is rarely neat and structured. Eg. A company's data might include struc
    - **Unstructured:** No pre-defined format (e.g., emails, social media posts, videos, photos, audio recordings).
    - **Semi-structured:** Has some organizational properties (e.g., JSON, XML, log files).  
 
+## Business Intelligence
+Business Intelligence (BI) is the set of strategies, technologies, and processes that organizations use to transform raw data into meaningful and actionable information that drives informed business decisions.
+
+Think of it as the bridge between data and decision-making. Its ultimate goal is to provide a comprehensive, easy-to-understand view of an organization's current and historical performance to support better choices.
