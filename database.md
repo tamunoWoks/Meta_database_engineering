@@ -82,3 +82,9 @@ Think of it as the bridge between data and decision-making. Its ultimate goal is
 
 ### The Business Intelligence Process:
 BI follows a systematic process to turn data into insight:
+1. **Data Collection:** Gathering raw data from many different sources. This can include:
+- Internal databases (sales, CRM, finance)
+- Spreadsheets
+- Cloud applications
+- Marketing analytics tools (e.g., Google Analytics)
+- Even external data sources
