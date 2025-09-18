@@ -91,3 +91,7 @@ Gathering raw data from many different sources. This can include:
    - Even external data sources
 2. **Data Integration and Cleaning:**  
 In this step, the collected data is often messy and inconsistent. BI tools clean and integrate it into a centralized, consistent repository called a **data warehouse** or **data mart**. This ensures everyone is looking at the same, accurate version of the truth.
+3. **Data Analysis:**  
+Using tools and software to explore the data, identify patterns, trends, and correlations. This can involve:
+   - **Querying:** Asking specific questions of the data (e.g., "What were our total sales in the Northwest region last quarter?").
+   - **Online Analytical Processing (OLAP):** Drilling down into data from multiple dimensions (e.g., sales by product, by region, by time).
