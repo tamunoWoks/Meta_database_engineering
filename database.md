@@ -65,4 +65,7 @@ It's not just about having a lot of data. It's about data that has passed a cert
 
 ### The Core of Big Data:
 The concept is best understood through its defining characteristics, often called the V's of Big Data.
-1. **Volume:** The sheer amount of data. This is the most obvious characteristic. We're talking about terabytes, petabytes, and even exabytes of data. Eg. Years of stock market tick data, all the videos on YouTube, terabytes of logs from a web server farm.
+1. **Volume:** The sheer amount of data.
+This is the most obvious characteristic. We're talking about terabytes, petabytes, and even exabytes of data. Eg. Years of stock market tick data, all the videos on YouTube, terabytes of logs from a web server farm.
+2. **Velocity:** The speed at which new data is generated and the pace at which it must be processed.
+Data often streams in continuously and must be analyzed in near-real-time. Eg. Twitter feeds, financial trading systems, real-time sensor data from IoT devices, live traffic updates in Google Maps.
