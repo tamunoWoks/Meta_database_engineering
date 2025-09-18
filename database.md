@@ -71,7 +71,7 @@ This is the most obvious characteristic. We're talking about terabytes, petabyte
 Data often streams in continuously and must be analyzed in near-real-time. Eg. Twitter feeds, financial trading systems, real-time sensor data from IoT devices, live traffic updates in Google Maps.
 3. **Variety:** The different types and formats of data.  
 Big Data is rarely neat and structured. It comes in all forms:
-- **Structured:** Traditional rows and columns (e.g., spreadsheets, SQL tables).
-- **Unstructured:** No pre-defined format (e.g., emails, social media posts, videos, photos, audio recordings).
-- **Semi-structured:** Has some organizational properties (e.g., JSON, XML, log files).  
+   - **Structured:** Traditional rows and columns (e.g., spreadsheets, SQL tables).
+   - **Unstructured:** No pre-defined format (e.g., emails, social media posts, videos, photos, audio recordings).
+   - **Semi-structured:** Has some organizational properties (e.g., JSON, XML, log files).  
 **Example:** A company's data might include structured sales records, unstructured customer service emails, and semi-structured website clickstream logs.
