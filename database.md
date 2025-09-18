@@ -43,8 +43,8 @@ For a field (or set of fields) to be a primary key, it must adhere to three stri
 ### Foreign Key:
 A *foreign key* is a field (or collection of fields) in one table that uniquely identifies a row in another table. It is a column in one table that points to the primary key in another table. This link establishes a relationship between the two tables.
 
-## Types of Databases:
-1. **Relational Databases (SQL Databases):**
+### Types of Databases:
+### Relational Databases (SQL Databases):
 This is the most traditional and common type. They organize data into tables (like spreadsheets) made of rows and columns.
 - **Core Concept:** Data is structured and follows a pre-defined schema (a blueprint of how the data is organized, including tables, columns, data types, and relationships). They use SQL (Structured Query Language) to manage and query the data.
 - **Strength:** ACID Compliance (Atomicity, Consistency, Isolation, Durability). This guarantees that database transactions are processed reliably and ensures data integrity. Excellent for complex queries and managing relationships between data points (e.g., customers and their orders).
