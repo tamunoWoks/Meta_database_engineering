@@ -27,3 +27,12 @@ SQL has remained the dominant language for data for over four decades for severa
 
 ## DBMS (Database Management System)
 A DBMS (Database Management System) is specialized software designed to create, manage, and interact with databases. In simpler terms, if data is the content of a library, the DBMS is the librarian, the indexing system, and the rules for checking out books, all rolled into one.
+
+### Key Functions of a DBMS:
+A DBMS doesn't just store data; it performs several critical jobs:
+- **Data Management:** It provides a systematic way to create, retrieve, update, and delete data (often called CRUD operations).
+- **Data Security:** It controls who can access what data through user accounts, permissions, and roles.
+- **Data Integrity:** It enforces rules to ensure data is accurate and consistent (e.g., using primary keys, foreign keys, and data type validation).
+- **Backup and Recovery:** It provides tools to back up data and restore it in case of a system failure, preventing data loss.
+- **Concurrency Control:** It allows multiple users to access the database simultaneously without interfering with each other, ensuring that data remains consistent.
+- **Data Abstraction:** It provides a simple interface for users and applications to interact with the data, hiding the complex underlying storage details.
