@@ -95,3 +95,8 @@ In this step, the collected data is often messy and inconsistent. BI tools clean
 Using tools and software to explore the data, identify patterns, trends, and correlations. This can involve:
    - **Querying:** Asking specific questions of the data (e.g., "What were our total sales in the Northwest region last quarter?").
    - **Online Analytical Processing (OLAP):** Drilling down into data from multiple dimensions (e.g., sales by product, by region, by time).
+4. **Data Visualization and Reporting:**  
+Presenting the analyzed data in an easy-to-understand, visual format. This is the most visible part of BI. It includes:
+   - **Dashboards:** Interactive, single-screen views of key performance indicators (KPIs) and metrics.
+   - **Reports:** Scheduled or on-demand detailed reports (e.g., a weekly sales report).
+   - **Charts & Graphs:** Bar charts, pie charts, line graphs, and more complex visualizations like heat maps.
