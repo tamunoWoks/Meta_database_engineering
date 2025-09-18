@@ -16,3 +16,7 @@ Think of it as the basic building blocks of information. By itself, a single pie
 Data is stored systematically, and these are the characteristics of systematic data:
 - Identifiable features or attributes.
 - Stored in entities eg. Tables
+
+### Types of Databases:
+1. **Object Oriented Databases:** Data stored in form of objects.
+   
