@@ -102,3 +102,10 @@ Presenting the analyzed data in an easy-to-understand, visual format. This is th
    - **Charts & Graphs:** Bar charts, pie charts, line graphs, and more complex visualizations like heat maps.
 5. **Action and Decision-Making:**  
 The final step. Decision-makers (managers, executives, analysts) use the insights from the reports and dashboards to make data-driven decisions.
+
+### Key Components of a BI Tool:
+Modern BI platforms (like Tableau, Microsoft Power BI, Qlik Sense, Looker) typically offer:
+- **Connectivity:** The ability to connect to a wide variety of data sources.
+- **Data Preparation Tools:** Tools to clean, transform, and model data without needing to code.
+- **Interactive Dashboards:** Drag-and-drop interfaces to build visualizations.
+- **Self-Service Analytics:** Allows non-technical users to explore data and create their own reports without relying on the IT department.
