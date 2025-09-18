@@ -24,3 +24,6 @@ SQL has remained the dominant language for data for over four decades for severa
 - Powerful Data Manipulation
 - Ability to Handle Complex Relationships
 - Security and Access Control
+
+## DBMS (Database Management System)
+A DBMS (Database Management System) is specialized software designed to create, manage, and interact with databases. In simpler terms, if data is the content of a library, the DBMS is the librarian, the indexing system, and the rules for checking out books, all rolled into one.
