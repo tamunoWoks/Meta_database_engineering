@@ -25,3 +25,8 @@ Data is stored systematically, and these are the characteristics of systematic d
 Databases are hosted:
 - Dedicated machine on site.
 - Cloud hosting.
+
+### Cloud Hosting:
+Cloud hosting for databases means running your database on a virtual server provided by a cloud company (like Amazon Web Services, Google Cloud, or Microsoft Azure) instead of on your own physical hardware in a server room.
+
+It's the difference between generating your own electricity with a private generator (on-premises server) and plugging into the massive, shared power grid (the cloud). You pay for what you use and don't worry about maintaining the infrastructure.
