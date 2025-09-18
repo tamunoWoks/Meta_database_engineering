@@ -69,3 +69,9 @@ The concept is best understood through its defining characteristics, often calle
 This is the most obvious characteristic. We're talking about terabytes, petabytes, and even exabytes of data. Eg. Years of stock market tick data, all the videos on YouTube, terabytes of logs from a web server farm.
 2. **Velocity:** The speed at which new data is generated and the pace at which it must be processed.
 Data often streams in continuously and must be analyzed in near-real-time. Eg. Twitter feeds, financial trading systems, real-time sensor data from IoT devices, live traffic updates in Google Maps.
+3. **Variety:** The different types and formats of data.  
+Big Data is rarely neat and structured. It comes in all forms:
+- **Structured:** Traditional rows and columns (e.g., spreadsheets, SQL tables).
+- **Unstructured:** No pre-defined format (e.g., emails, social media posts, videos, photos, audio recordings).
+- **Semi-structured:** Has some organizational properties (e.g., JSON, XML, log files).  
+**Example:** A company's data might include structured sales records, unstructured customer service emails, and semi-structured website clickstream logs.
