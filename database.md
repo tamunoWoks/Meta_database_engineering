@@ -46,3 +46,8 @@ A *foreign key* is a field (or collection of fields) in one table that uniquely 
 ## Types of Databases:
 1. **Relational Databases (SQL Databases):**
 This is the most traditional and common type. They organize data into tables (like spreadsheets) made of rows and columns.
+- **Core Concept:** Data is structured and follows a pre-defined schema (a blueprint of how the data is organized, including tables, columns, data types, and relationships). They use SQL (Structured Query Language) to manage and query the data.
+- **Strength:** ACID Compliance (Atomicity, Consistency, Isolation, Durability). This guarantees that database transactions are processed reliably and ensures data integrity. Excellent for complex queries and managing relationships between data points (e.g., customers and their orders).
+- **Weakness:** The rigid schema can make them less flexible if your data structure needs to change frequently. They can also be difficult to scale horizontally (across multiple servers).
+- **Best For:** Applications where data integrity and relationships are critical. Examples: accounting systems, customer relationship management (CRM) software, e-commerce transaction systems.
+- **Examples:** MySQL, PostgreSQL, Microsoft SQL Server, Oracle Database, SQLite.
