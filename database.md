@@ -30,3 +30,6 @@ Databases are hosted:
 Cloud hosting in relation to databases means leveraging the infrastructure and services of a cloud provider like Amazon Web Services, Google Cloud, or Microsoft Azure to run your database instead of on your own physical hardware in a server room.  
 
 It transforms a database from a piece of software you must maintain into a managed utility that you simply use, allowing developers to focus on building applications rather than managing hardware and software.
+
+### Primary Key:
+A primary key is a special field in a database table that uniquely identifies each record in that table. Its main job is to ensure data integrity by preventing duplicate records and providing a reliable way to find, reference, and link specific pieces of data.
