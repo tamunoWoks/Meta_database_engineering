@@ -48,7 +48,7 @@ A modern class of DBMS that aims to provide the same scalable performance as NoS
 4. **In-Memory DBMS:**  
 A DBMS that primarily relies on main memory (RAM) for data storage, rather than disk. This makes data retrieval incredibly fast. Eg. Redis, MemSQL.
 
-## CRUD Opearations
+### CRUD Opearations:
 CRUD operations are the four basic functions that any persistent storage application must be able to perform. They are the foundation of almost every interaction with a database.  
 The acronym CRUD stands for:
 - Create
@@ -57,3 +57,13 @@ The acronym CRUD stands for:
 - Delete.  
 
 These operations map almost directly to the core commands in the SQL language and are fundamental to API design (like RESTful APIs) and any application that interacts with data. It maps directly to SQL commands (INSERT, SELECT, UPDATE, DELETE) and HTTP methods (POST, GET, PUT, DELETE).
+
+### DDL (Data Definition Language):
+DDL stands for Data Definition Language. It is a subset of SQL commands used to define, modify, and manage the structure of database objects, such as tables, indexes, and views. While other parts of SQL work with the data inside the tables, DDL is used to create and change the tables themselves—the blueprint or schema of the database.  
+
+The most fundamental DDL commands are:
+- `CREATE`
+- `ALTER`
+- `DROP`
+- `TRUNCATE`
+- `RENAME`
