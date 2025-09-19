@@ -68,7 +68,7 @@ The most fundamental DDL commands are:
 - `TRUNCATE`
 - `RENAME`
 
-### DML (Data Manipulation Language)
+### DML (Data Manipulation Language):
 DML stands for Data Manipulation Language. It is the subset of SQL commands used for managing, manipulating, and retrieving the data stored within the database structures created by DDL.  
 
 DML operations are famously known as CRUD operations:
@@ -77,3 +77,7 @@ DML operations are famously known as CRUD operations:
 - Update (`UPDATE`)
 - Delete (`DELETE`)
 
+### DQL (Data Query Language):
+DQL stands for Data Query Language. It is a sub-language of SQL dedicated to one specific and crucial task: retrieving data from a database. DQL consists of a single, powerful command: `SELECT`.  
+
+The entire purpose of DQL is to ask questions of the database and get answers back, without changing the data in any way. It is the primary tool for data analysis, reporting, and generating insights.
