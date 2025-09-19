@@ -48,4 +48,12 @@ A modern class of DBMS that aims to provide the same scalable performance as NoS
 4. **In-Memory DBMS:**  
 A DBMS that primarily relies on main memory (RAM) for data storage, rather than disk. This makes data retrieval incredibly fast. Eg. Redis, MemSQL.
 
+## CRUD Opearations
+CRUD operations are the four basic functions that any persistent storage application must be able to perform. They are the foundation of almost every interaction with a database.  
+The acronym CRUD stands for:
+- Create
+- Read
+- Update
+- Delete.  
 
+These operations map almost directly to the core commands in the SQL language and are fundamental to API design (like RESTful APIs) and any application that interacts with data. It maps directly to SQL commands (INSERT, SELECT, UPDATE, DELETE) and HTTP methods (POST, GET, PUT, DELETE).
