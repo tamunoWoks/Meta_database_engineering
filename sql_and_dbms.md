@@ -81,3 +81,16 @@ DML operations are famously known as CRUD operations:
 DQL stands for Data Query Language. It is a sub-language of SQL dedicated to one specific and crucial task: retrieving data from a database. DQL consists of a single, powerful command: `SELECT`.  
 
 The entire purpose of DQL is to ask questions of the database and get answers back, without changing the data in any way. It is the primary tool for data analysis, reporting, and generating insights.
+
+### DCL (Data Control Language):
+DCL stands for Data Control Language. It is a subset of SQL commands used to control access to the data and the database itself. Its primary purpose is to grant and revoke permissions, ensuring security and integrity by defining who can do what within the database.  
+
+DCL is all about authorization. It answers critical questions like:
+- Can this user read data from this table?
+- Can that user update or delete records?
+- Who is allowed to create new tables or delete existing ones?
+- Can this application only read data, or can it also write data?
+
+The two fundamental DCL commands are:
+- `GRANT`
+- `REVOKE`
