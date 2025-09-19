@@ -36,3 +36,16 @@ A DBMS doesn't just store data; it performs several critical jobs:
 - **Backup and Recovery:** It provides tools to back up data and restore it in case of a system failure, preventing data loss.
 - **Concurrency Control:** It allows multiple users to access the database simultaneously without interfering with each other, ensuring that data remains consistent.
 - **Data Abstraction:** It provides a simple interface for users and applications to interact with the data, hiding the complex underlying storage details.
+
+### Types of DBMS with Examples:
+DBMS can be categorized based on how they organize data. The primary models are:
+1. **Relational DBMS (RDBMS):**
+This is the most common type. It organizes data into tables (rows and columns) and uses SQL for querying. Relationships between tables are enforced. Eg. MySQL, PostgreSQL, Microsoft SQL Server, Oracle Database, SQLite.
+2. **NoSQL DBMS:**
+This is a broad category for databases that don't use the traditional table-based relational model. They are designed for specific data models like documents, key-value pairs, graphs, or wide columns. Eg. MongoDB, Redis, Apache Cassandra, Neo4j.
+3. **NewSQL DBMS:**
+A modern class of DBMS that aims to provide the same scalable performance as NoSQL systems while maintaining the ACID guarantees and SQL interface of traditional RDBMS. Eg. Google Spanner, Cockroach DB.
+4. **In-Memory DBMS:**
+A DBMS that primarily relies on main memory (RAM) for data storage, rather than disk. This makes data retrieval incredibly fast. Eg. Redis, MemSQL.
+
+
