@@ -186,3 +186,6 @@ Without constraints, a database can quickly become filled with incorrect, incons
 | **`NOT NULL`** | Ensures a column has a value. | Cannot be Null |
 | **`CHECK`** | Enforces custom condition on values. | Must satisfy logical condition. |
 | **`DEFAULT`** | Provides a default value if none is given. | Uses value if insert is blank. |
+
+#### Note:
+Constraints act at the moment data is inserted or modified. If an operation violates a constraint, the database system will immediately reject it and throw an error.
