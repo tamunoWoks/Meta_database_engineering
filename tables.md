@@ -73,3 +73,16 @@ Data types are crucial because they:
 - Ensure data integrity (you can't put a name in a price field).
 - Optimize storage space (a number is stored more efficiently than text).
 - Enable proper operations and calculations (you can add two numbers, but adding two phone numbers as text doesn't make sense).
+
+Data types can be grouped into several categories. Here are the most common ones you will encounter:
+#### Numeric Types:
+For storing numbers. 
+
+| Data Type | Description | Example |
+| :--- | :--- | :--- |
+| **`INT` / `INTEGER`** | Whole numbers, positive or negative. | `42`, `-7`, `15000` |
+| **`DECIMAL(p, s)`** | Exact numbers with fixed precision and scale. Essential for financial data. `p` is total digits, `s` is digits after the decimal. | `12345.67` is `DECIMAL(7,2)` |
+| **`NUMERIC(p, s)`** | Functionally identical to `DECIMAL`. | `999.99` is `NUMERIC(5,2)` |
+| **`FLOAT` / `REAL`** | Approximate numerical, floating-point numbers. Use for scientific data. | `3.14159`, `2.5e10` |
+| **`SMALLINT`** | Smaller range integer. Uses less space. | `-32768` to `+32767` |
+| **`BIGINT`** | Larger range integer. Uses more space. | `-2^63` to `2^63-1` |
