@@ -47,3 +47,10 @@ Each instance (or occurrence) of an entity becomes a record (or row) in the data
 In a database table, a *column* defines a specific type of information or attribute that is stored for every record in that table. It represents a single, consistent category of data.  
 
 Think of it like a header in a spreadsheet or a field on a form.
+
+#### Key Characteristics of a Column:
+1. **Name:** Every column must have a unique name within its table.
+2. **Data Type:** This is the most important property. It defines the kind of data the column can hold.
+3. **Constraints:** Optional rules that enforce data integrity and define relationships.
+
+Columns are fundamental because they define the structure of the table, enforce data integrity, enable relationships and allow efficient querying.
