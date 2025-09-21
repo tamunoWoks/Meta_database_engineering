@@ -75,7 +75,7 @@ Data types are crucial because they:
 - Enable proper operations and calculations (you can add two numbers, but adding two phone numbers as text doesn't make sense).
 
 Data types can be grouped into several categories. Here are the most common ones you will encounter:
-#### Numeric Types:
+#### 1. Numeric Types:
 For storing numbers. 
 
 | Data Type | Description | Example |
@@ -113,3 +113,12 @@ For storing true/false values.
 | Data Type | Description | Example |
 | :--- | :--- | :--- |
 | **`BOOLEAN`** | Represents a logical state. | `TRUE`, `FALSE`, `1`, `0` |
+
+#### 5. Binary Types:
+For storing raw bytes (e.g., images, files).
+
+| Data Type | Description | Example |
+| :--- | :--- | :--- |
+| **`BLOB`** | Binary Large Object. For large binary data. | Image files, PDF documents |
+| **`BINARY(n)`** | Fixed-length binary data. | `0x4A6F686E` |
+| **`VARBINARY(n)`** | Variable-length binary data. | `0x4A6F686E` |
