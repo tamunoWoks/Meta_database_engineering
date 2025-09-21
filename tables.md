@@ -25,7 +25,7 @@ In the context of databases and data modeling, an *entity* is a real-world objec
 
 Think of an entity as a noun (a person, place, thing, or event) that is important to your business or application and about which you need to store information.  
 
-**Examples of entities:**
+#### Examples of entities:
 - **Person:** `Customer`, `Employee`, `Student`
 - **Place:** `Store`, `Office`, `Warehouse`
 - **Thing:** `Product`, `Machine`, `Book`
@@ -34,3 +34,10 @@ Think of an entity as a noun (a person, place, thing, or event) that is importan
 Each instance (or occurrence) of an entity becomes a record (or row) in the database table.
 - The entity `Customer` is implemented as the `Customers` table.
 - A specific customer, "Alice Smith", is a single row in that table.
+
+#### Characteristics of an Entity:
+1. **Attributes:** These are the properties or characteristics that describe the entity. In a database table, attributes become the columns.
+  - For a `Product` entity, its attributes could be `ProductID`, `ProductName`, `Price`, and `Category`.
+2. **Unique Identifier:** Every entity must have an attribute (or a set of attributes) that uniquely identifies each instance. This becomes the *primary key* in the table.
+  - For a `Customer` entity, the unique identifier is often a `CustomerID`.
+
