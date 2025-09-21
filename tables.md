@@ -148,3 +148,14 @@ A domain is like a template or a rule set for a column. It answers two questions
 - A field asking for your "Age" has a domain of positive integers within a reasonable range (e.g., 0 to 120).
 - A field for "Email Address" has a domain of text strings that must contain an '@' symbol and a domain name.
 - A field for "Payment Status" might have a domain that is restricted to a specific list of values: {'Paid', 'Pending', 'Failed'}.
+
+#### Components of a Domain:
+A domain is defined by two key components:
+1. **Underlying Data Type:** The fundamental type of data.
+    - Examples: `INTEGER`, `VARCHAR(50)`, `DATE`, `DECIMAL(10,2)`.
+2. **Constraints (Optional Rules):** Additional limitations on the values.
+    - **Value Range:** `CHECK (Age >= 0 AND Age <= 120)`
+    - **List of Valid Values:** `CHECK (Status IN ('Active', 'Inactive', 'Pending'))`
+    - **Nullability:** `NOT NULL`
+    - **Default Value:** `DEFAULT 'Pending'`
+    - **Format:** `CHECK (PhoneNumber LIKE '[0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')`
