@@ -171,3 +171,8 @@ In a database, *constraints* are rules enforced on the data in a table's columns
 
 Think of them as the validation rules or business rules that your data must always follow.
 
+#### Why are Constraints Important?
+Without constraints, a database can quickly become filled with incorrect, inconsistent, and meaningless data—a situation often called "garbage in, garbage out." Constraints prevent this by:
+- **Ensuring Data Accuracy:** Preventing invalid data from being entered.
+- **Maintaining Data Integrity** Ensuring relationships between tables are valid and consistent.
+- **Enforcing Business Rules:** Codifying important organizational policies directly into the database structure.
