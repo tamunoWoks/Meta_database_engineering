@@ -132,7 +132,12 @@ For storing raw bytes (e.g., images, files).
 | **`UUID`** | Universally Unique Identifier. | `a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11` |
 | **`ENUM`** | A list of predefined string values. | `ENUM('Small', 'Medium', 'Large')` |
 
-#### Notes:
+#### Note:
 - **Precision matters**: Choose the smallest data type that fits your needs for better performance
 - **VARCHAR vs CHAR**: Use VARCHAR for variable-length data, CHAR for fixed-length data
 - **Database variations**: Specific implementations may vary between SQL systems (MySQL, PostgreSQL, SQL Server, etc.)
+
+### Domain:
+In the context of databases and data modeling, a *domain* refers to the set of all possible valid values that a column (attribute) can contain. It defines the fundamental type of data and the constraints that apply to it.  
+
+Think of it as a formal definition of "what kind of information can go here" and "what rules it must follow."
