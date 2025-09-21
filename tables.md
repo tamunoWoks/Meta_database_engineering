@@ -59,3 +59,9 @@ Columns are fundamental because they define the structure of the table, enforce 
 In a database table, a *row* is a single, horizontal entry that represents a complete record of information. It contains a set of related data values, one for each column defined in the table.
 
 A row is basically a unique horizontal entity in a table that represents and instance. In database theory, a row is formally called a **tuple**. In everyday language, it's often called a **record**.
+
+#### The Role of Rows in a Relational Database:
+Rows are crucial because they:
+1. **Hold the Actual Data:** While columns define the structure, the rows contain the real, stored data. Without rows, a table is just an empty shell.
+2. **Are the Unit of Operation:** When you Insert, Update, or Delete data (using DML commands), you typically do so one row at a time or on a set of rows.
+3. **Are the Result of Queries:** When you execute a `SELECT` query, the results are returned as a set of rows.
