@@ -86,3 +86,12 @@ For storing numbers.
 | **`FLOAT` / `REAL`** | Approximate numerical, floating-point numbers. Use for scientific data. | `3.14159`, `2.5e10` |
 | **`SMALLINT`** | Smaller range integer. Uses less space. | `-32768` to `+32767` |
 | **`BIGINT`** | Larger range integer. Uses more space. | `-2^63` to `2^63-1` |
+
+#### 2. Character/String Types:
+For storing text.
+
+| Data Type | Description | Example |
+| :--- | :--- | :--- |
+| **`CHAR(n)`** | Fixed-length character string. Padded with spaces. | `'ABC '` (for `CHAR(5)`) |
+| **`VARCHAR(n)`** | **Most common.** Variable-length string. `n` is max length. | `'Hello'` (for `VARCHAR(100)`) |
+| **`TEXT`** | For very long strings of variable length. | A long article or description. |
