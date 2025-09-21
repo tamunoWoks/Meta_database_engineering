@@ -123,7 +123,7 @@ For storing raw bytes (e.g., images, files).
 | **`BINARY(n)`** | Fixed-length binary data. | `0x4A6F686E` |
 | **`VARBINARY(n)`** | Variable-length binary data. | `0x4A6F686E` |
 
-### 6. Specialized Types:
+#### 6. Specialized Types:
 
 | Data Type | Description | Example |
 | :--- | :--- | :--- |
@@ -131,3 +131,8 @@ For storing raw bytes (e.g., images, files).
 | **`XML`** | Stores XML data. | `<user><name>John</name></user>` |
 | **`UUID`** | Universally Unique Identifier. | `a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11` |
 | **`ENUM`** | A list of predefined string values. | `ENUM('Small', 'Medium', 'Large')` |
+
+#### Notes:
+- **Precision matters**: Choose the smallest data type that fits your needs for better performance
+- **VARCHAR vs CHAR**: Use VARCHAR for variable-length data, CHAR for fixed-length data
+- **Database variations**: Specific implementations may vary between SQL systems (MySQL, PostgreSQL, SQL Server, etc.)
