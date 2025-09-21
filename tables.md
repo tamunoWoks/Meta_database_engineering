@@ -29,4 +29,8 @@ Think of an entity as a noun (a person, place, thing, or event) that is importan
 - **Person:** `Customer`, `Employee`, `Student`
 - **Place:** `Store`, `Office`, `Warehouse`
 - **Thing:** `Product`, `Machine`, `Book`
-- **Event:** `Order`, `Sale`, `Appointment`, `Shipment`
+- **Event:** `Order`, `Sale`, `Appointment`, `Shipment`  
+
+Each instance (or occurrence) of an entity becomes a record (or row) in the database table.
+- The entity `Customer` is implemented as the `Customers` table.
+- A specific customer, "Alice Smith", is a single row in that table.
