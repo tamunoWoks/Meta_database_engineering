@@ -143,3 +143,8 @@ In the context of databases and data modeling, a *domain* refers to the set of a
 A domain is like a template or a rule set for a column. It answers two questions: 
 1. What is the data type? (e.g., Text, Number, Date)
 2. What are the constraints on the values? (e.g., Must be positive, Must be from a specific list, Cannot be null)
+
+**Analogy:** Think of a web form.
+- A field asking for your "Age" has a domain of positive integers within a reasonable range (e.g., 0 to 120).
+- A field for "Email Address" has a domain of text strings that must contain an '@' symbol and a domain name.
+- A field for "Payment Status" might have a domain that is restricted to a specific list of values: {'Paid', 'Pending', 'Failed'}.
