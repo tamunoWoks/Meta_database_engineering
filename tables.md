@@ -165,3 +165,9 @@ A domain is defined by two key components:
 2. **Consistency:** You can define a domain once (e.g., `email_domain`) and use it across dozens of tables. This ensures every "email" column in your entire database follows the exact same rules.
 3. **Documentation:** Domains explicitly document the business rules and requirements for data. Looking at a domain's definition tells you exactly what is allowed.
 4. **Maintainability:** If a business rule changes (e.g., a status now can also be 'On Hold'), you only need to update the domain definition in one place, and it applies everywhere the domain is used.
+
+### Constraints:
+In a database, *constraints* are rules enforced on the data in a table's columns. They are used to limit the type of data that can be inserted, updated, or deleted, thereby ensuring the accuracy, reliability, and integrity of the data in the database.  
+
+Think of them as the validation rules or business rules that your data must always follow.
+
