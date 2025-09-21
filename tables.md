@@ -189,3 +189,14 @@ Without constraints, a database can quickly become filled with incorrect, incons
 
 #### Note:
 Constraints act at the moment data is inserted or modified. If an operation violates a constraint, the database system will immediately reject it and throw an error.
+
+#### Example of a constraint violation:
+```sql
+-- This will FAIL if there is no Customer with ID 999 in the Customers table.
+INSERT INTO Orders (OrderID, OrderDate, CustomerID)
+VALUES (5001, '2023-10-27', 999); -- Violates FOREIGN KEY constraint
+
+-- This will FAIL if 'johndoe@company.com' already exists for another employee.
+INSERT INTO Employees (EmployeeID, Email)
+VALUES (105, 'johndoe@company.com'); -- Violates UNIQUE constraint
+```
