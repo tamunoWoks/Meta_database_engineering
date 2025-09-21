@@ -57,3 +57,5 @@ Columns are fundamental because they define the structure of the table, enforce 
 
 ### Rows:
 In a database table, a *row* is a single, horizontal entry that represents a complete record of information. It contains a set of related data values, one for each column defined in the table.
+
+A row is basically a unique horizontal entity in a table that represents and instance. In database theory, a row is formally called a **tuple**. In everyday language, it's often called a **record**.
