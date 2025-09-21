@@ -65,3 +65,11 @@ Rows are crucial because they:
 1. **Hold the Actual Data:** While columns define the structure, the rows contain the real, stored data. Without rows, a table is just an empty shell.
 2. **Are the Unit of Operation:** When you Insert, Update, or Delete data (using DML commands), you typically do so one row at a time or on a set of rows.
 3. **Are the Result of Queries:** When you execute a `SELECT` query, the results are returned as a set of rows.
+
+### Data Types:
+In a database, a *data type* is an attribute that specifies the type of data that a column can hold. It defines the possible values for that column and the operations that can be performed on them.  
+
+Data types are crucial because they:
+- Ensure data integrity (you can't put a name in a price field).
+- Optimize storage space (a number is stored more efficiently than text).
+- Enable proper operations and calculations (you can add two numbers, but adding two phone numbers as text doesn't make sense).
