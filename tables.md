@@ -176,3 +176,13 @@ Without constraints, a database can quickly become filled with incorrect, incons
 - **Ensuring Data Accuracy:** Preventing invalid data from being entered.
 - **Maintaining Data Integrity** Ensuring relationships between tables are valid and consistent.
 - **Enforcing Business Rules:** Codifying important organizational policies directly into the database structure.
+
+#### Key Constraints:
+| Constraint | Purpose | Key Rule |
+| :--- | :--- | :--- |
+| **`PRIMARY KEY`** | Uniquely identifies each row. | Unique + Not Null |
+| **`FOREIGN KEY`** | Links data between tables. | Value must exist in another table. |
+| **`UNIQUE`** | Ensures all values are different. | Unique (can be Null) |
+| **`NOT NULL`** | Ensures a column has a value. | Cannot be Null |
+| **`CHECK`** | Enforces custom condition on values. | Must satisfy logical condition. |
+| **`DEFAULT`** | Provides a default value if none is given. | Uses value if insert is blank. |
