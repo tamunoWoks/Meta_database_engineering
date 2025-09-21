@@ -140,6 +140,6 @@ For storing raw bytes (e.g., images, files).
 ### Domain:
 In the context of databases and data modeling, a *domain* refers to the set of all possible valid values that a column (attribute) can contain. It defines the fundamental type of data and the constraints that apply to it.  
 
-A domain is like a template or a rule set for a column. It answers two questions:  
+A domain is like a template or a rule set for a column. It answers two questions: 
 1. What is the data type? (e.g., Text, Number, Date)
 2. What are the constraints on the values? (e.g., Must be positive, Must be from a specific list, Cannot be null)
