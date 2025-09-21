@@ -21,6 +21,12 @@ The schema doesn't contain the actual data itself. Instead, it defines:
 - The relationships between tables.
 
 ### Entity:
-In the context of databases and data modeling, an `entity` is a real-world object, concept, or thing that can be distinctly identified and about which data can be stored. An entity is represented or implemented in a database as a table.  
+In the context of databases and data modeling, an *entity* is a real-world object, concept, or thing that can be distinctly identified and about which data can be stored. An entity is represented or implemented in a database as a table.  
 
-Think of an entity as a noun (a person, place, thing, or event) that is important to your business or application and about which you need to store information.
+Think of an entity as a noun (a person, place, thing, or event) that is important to your business or application and about which you need to store information.  
+
+**Examples of entities:**
+- **Person:** `Customer`, `Employee`, `Student`
+- **Place:** `Store`, `Office`, `Warehouse`
+- **Thing:** `Product`, `Machine`, `Book`
+- **Event:** `Order`, `Sale`, `Appointment`, `Shipment`
