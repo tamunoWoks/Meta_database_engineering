@@ -95,3 +95,14 @@ For storing text.
 | **`CHAR(n)`** | Fixed-length character string. Padded with spaces. | `'ABC '` (for `CHAR(5)`) |
 | **`VARCHAR(n)`** | **Most common.** Variable-length string. `n` is max length. | `'Hello'` (for `VARCHAR(100)`) |
 | **`TEXT`** | For very long strings of variable length. | A long article or description. |
+
+#### 3. Date and Time Types:
+For storing temporal data.
+
+| Data Type | Description | Example |
+| :--- | :--- | :--- |
+| **`DATE`** | Stores a date (year, month, day). | `'2023-10-27'` |
+| **`TIME`** | Stores a time (hours, minutes, seconds). | `'14:30:00'` |
+| **`DATETIME`** | Stores both a date and a time. | `'2023-10-27 14:30:00'` |
+| **`TIMESTAMP`** | Often timezone-aware. Stores date and time. | `'2023-10-27 14:30:00 UTC'` |
+| **`INTERVAL`** | Represents a span of time. | `'2 days'`, `'5 hours'` |
