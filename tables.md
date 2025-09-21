@@ -106,3 +106,10 @@ For storing temporal data.
 | **`DATETIME`** | Stores both a date and a time. | `'2023-10-27 14:30:00'` |
 | **`TIMESTAMP`** | Often timezone-aware. Stores date and time. | `'2023-10-27 14:30:00 UTC'` |
 | **`INTERVAL`** | Represents a span of time. | `'2 days'`, `'5 hours'` |
+
+#### 4. Boolean Type:
+For storing true/false values.
+
+| Data Type | Description | Example |
+| :--- | :--- | :--- |
+| **`BOOLEAN`** | Represents a logical state. | `TRUE`, `FALSE`, `1`, `0` |
