@@ -54,3 +54,6 @@ Think of it like a header in a spreadsheet or a field on a form.
 3. **Constraints:** Optional rules that enforce data integrity and define relationships.
 
 Columns are fundamental because they define the structure of the table, enforce data integrity, enable relationships and allow efficient querying.
+
+### Rows:
+In a database table, a *row* is a single, horizontal entry that represents a complete record of information. It contains a set of related data values, one for each column defined in the table.
