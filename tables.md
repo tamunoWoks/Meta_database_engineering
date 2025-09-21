@@ -122,3 +122,12 @@ For storing raw bytes (e.g., images, files).
 | **`BLOB`** | Binary Large Object. For large binary data. | Image files, PDF documents |
 | **`BINARY(n)`** | Fixed-length binary data. | `0x4A6F686E` |
 | **`VARBINARY(n)`** | Variable-length binary data. | `0x4A6F686E` |
+
+### 6. Specialized Types:
+
+| Data Type | Description | Example |
+| :--- | :--- | :--- |
+| **`JSON`** | Native support for storing and querying JSON data. | `{"name": "John", "age": 30}` |
+| **`XML`** | Stores XML data. | `<user><name>John</name></user>` |
+| **`UUID`** | Universally Unique Identifier. | `a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11` |
+| **`ENUM`** | A list of predefined string values. | `ENUM('Small', 'Medium', 'Large')` |
