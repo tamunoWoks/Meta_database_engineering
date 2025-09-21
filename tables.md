@@ -37,7 +37,7 @@ Each instance (or occurrence) of an entity becomes a record (or row) in the data
 
 #### Characteristics of an Entity:
 1. **Attributes:** These are the properties or characteristics that describe the entity. In a database table, attributes become the columns.
-  - For a `Product` entity, its attributes could be `ProductID`, `ProductName`, `Price`, and `Category`.
+    - For a `Product` entity, its attributes could be `ProductID`, `ProductName`, `Price`, and `Category`.
 2. **Unique Identifier:** Every entity must have an attribute (or a set of attributes) that uniquely identifies each instance. This becomes the *primary key* in the table.
-  - For a `Customer` entity, the unique identifier is often a `CustomerID`.
+    - For a `Customer` entity, the unique identifier is often a `CustomerID`.
 
