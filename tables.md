@@ -41,3 +41,7 @@ Each instance (or occurrence) of an entity becomes a record (or row) in the data
 2. **Unique Identifier:** Every entity must have an attribute (or a set of attributes) that uniquely identifies each instance. This becomes the *primary key* in the table.
     - For a `Customer` entity, the unique identifier is often a `CustomerID`.
 
+### Columns:
+In a database table, a *column* defines a specific type of information or attribute that is stored for every record in that table. It represents a single, consistent category of data.  
+
+Think of it like a header in a spreadsheet or a field on a form.
