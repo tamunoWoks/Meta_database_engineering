@@ -159,3 +159,9 @@ A domain is defined by two key components:
     - **Nullability:** `NOT NULL`
     - **Default Value:** `DEFAULT 'Pending'`
     - **Format:** `CHECK (PhoneNumber LIKE '[0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]')`
+
+#### Why are Domains Useful?
+1. **Data Integrity**: They are the strongest tool for ensuring that only valid, meaningful data enters the database. They prevent "garbage in."
+2. **Consistency:** You can define a domain once (e.g., `email_domain`) and use it across dozens of tables. This ensures every "email" column in your entire database follows the exact same rules.
+3. **Documentation:** Domains explicitly document the business rules and requirements for data. Looking at a domain's definition tells you exactly what is allowed.
+4. **Maintainability:** If a business rule changes (e.g., a status now can also be 'On Hold'), you only need to update the domain definition in one place, and it applies everywhere the domain is used.
